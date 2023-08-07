@@ -199,7 +199,7 @@ mysqli_close($conn);
 ?>
 
         <!-- Add the HTML form for creating a new user -->
-        <h2>Create New User</h2>
+        <!-- <h2>Create New User</h2>
         <form method="post">
             <label for="name">Name:</label>
             <input type="text" name="name" required><br>
@@ -211,7 +211,7 @@ mysqli_close($conn);
             <input type="password" name="password" required><br>
 
             <input type="submit" name="create" value="Create User">
-        </form>
+        </form> -->
     </div>
 </body>
 </html>

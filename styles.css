@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    color: #fff;
+}
+
+.body-div{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    display: inline-block;
+    padding-right: 62rem;
+    padding-left: 15px;
+}
+
+.button-class{
+    padding-right: 17px;
+}
+
+button{
+    display: inline-block;
+    /*padding: 7px;*/
+    background-color: #F79327;
+    border-radius: 6px;
+    color: white;
+    font-family:Bahnschrift;    
+    font-size: 14px;
+    height: 35px;
+    width: 5rem;
+}
+
+.save-div{
+    padding-left: 22rem;
+    padding-bottom: 6px;
+}
+
+.save-class{
+    /*padding: 7px;*/
+    background-color: #F79327;
+    border-radius: 6px;
+    color: white;
+    font-family:Bahnschrift;
+    font-size: 1rem;
+    height: 35px;
+    width: 54px;
+}
+
+.head-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+    font-family: monospace;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.code-div{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5px;
+}
+
+.html-div,.css-div,.js-div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 9px;
+}
+
+label{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-left: 3px;
+}
+
+.lb-1{
+    border-radius: 3px 3px 0 0;
+    color: black;
+    background-color: #F79327;
+}
+
+.lb-2{
+    border-radius: 3px 3px 0 0;
+    color: black;
+    background-color: #75C2F6;
+}
+
+.lb-3{
+    border-radius: 3px 3px 0 0;
+    color: black;
+    background-color: #FBD85D;
+}
+
+.right{
+    width: 55rem;
+    padding-left: 2rem;
+    padding-right: 5px;
+}
+
+.lb-out{
+    background-color: #57C5B6;
+    border-radius: 8px 8px 0 0;
+    color: black;
+    display: block;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+
+textarea{
+    border-radius: 0 0 6px 6px;
+    resize: vertical;
+    height: 10rem;
+    width: 26rem;
+    background-color:#20262E;
+    color: white;
+}
+input[type=textarea]{
+    font-family: Candara;
+}
+
+#loadButton{
+    display:none;
+}
+
+iframe{
+    width: 100%;
+    height: 34rem;
+    background: #fff;
+    border: 0;
+    border-radius: 0 0 8px 8px;
+    outline: 0;
+}

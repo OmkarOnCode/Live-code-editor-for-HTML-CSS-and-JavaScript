@@ -10,7 +10,7 @@
         }
 
         body {
-            background-image: linear-gradient(to right top, #161fb3, #3c21b3, #5323b3, #6527b3, #742bb3, #5c45c2, #3e57cd, #0067d4, #007ed3, #008fc3, #009bad, #4aa49c);
+        background-color:#445069;
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
@@ -81,14 +81,14 @@
         <h1>Hello Admin</h1>
 
         <!-- Add the HTML form for creating a new admin -->
-        <h2>Create New Admin</h2>
-        <form method="post">
-            <input type="text" name="name" required placeholder="Name"><br>
+        <!--<h2>Create New Admin</h2>-->
+        <!--<form method="post">-->
+        <!--    <input type="text" name="name" required placeholder="Name"><br>-->
 
-            <input type="password" name="password" required placeholder="Password"><br>
+        <!--    <input type="password" name="password" required placeholder="Password"><br>-->
 
-            <input type="submit" name="create" value="Create Admin">
-        </form>
+        <!--    <input type="submit" name="create" value="Create Admin">-->
+        <!--</form>-->
 
         <!-- Add the PHP code here -->
 
@@ -189,12 +189,12 @@ $adminResult = mysqli_query($conn, $adminSql);
 
 if (mysqli_num_rows($adminResult) > 0) {
     echo "<table>";
-    echo "<tr><th>Name</th><th>Password</th></tr>";
+    echo "<tr><th>Name</th></tr>";
 
     while ($adminRow = mysqli_fetch_assoc($adminResult)) {
         echo "<tr>";
         echo "<td>" . $adminRow['name'] . "</td>";
-        echo "<td>" . $adminRow['password'] . "</td>";
+        // echo "<td>" . $adminRow['password'] . "</td>";
         echo "</tr>";
     }
 
@@ -207,14 +207,14 @@ if (mysqli_num_rows($adminResult) > 0) {
 echo "<h2>User List</h2>";
 if (mysqli_num_rows($result) > 0) {
     echo "<table>";
-    echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Password</th><th>Actions</th></tr>";
+    echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Actions</th></tr>";
 
     while ($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
         echo "<td>" . $row['id'] . "</td>";
         echo "<td>" . $row['name'] . "</td>";
         echo "<td>" . $row['email'] . "</td>";
-        echo "<td>" . $row['password'] . "</td>";
+        // echo "<td>" . $row['password'] . "</td>";
         echo "<td>
                 <form method='post'>
                     <input type='hidden' name='id' value='" . $row['id'] . "'>

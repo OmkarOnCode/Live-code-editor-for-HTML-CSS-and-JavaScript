@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+.all{
+    background-image: linear-gradient(to left bottom, #161fb3, #3c21b3, #5323b3, #6527b3, #742bb3, #5c45c2, #3e57cd, #0067d4, #007ed3, #008fc3, #009bad, #4aa49c);
+}
 body{
-    background: black;
     color: #fff;
+    background-image: linear-gradient(to left bottom, #161fb3, #3c21b3, #5323b3, #6527b3, #742bb3, #5c45c2, #3e57cd, #0067d4, #007ed3, #008fc3, #009bad, #4aa49c);
+
 }
 
 .body-div{
@@ -62,7 +65,6 @@ button{
     padding-top: 19px;
     padding-bottom: 20px;
     padding-right: 0;
-    background-color: black;
 }
 .container{
     display: flex;

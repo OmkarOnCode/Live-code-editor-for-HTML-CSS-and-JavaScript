@@ -117,7 +117,7 @@ if (isset($_POST['load'])) {
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/d721a7fdaa.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="all">
     <div class="body-div">
         <div class="head-div">
             <div>

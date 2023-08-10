@@ -114,7 +114,7 @@ if(isset($_POST['submit'])){
     <div class="container">
         <form action="" method="POST">
             <div class="in-1">
-                <input type="text" name="name" id="" placeholder="Create username" required>
+                <input type="text" name="name" id="" placeholder="Create username" pattern="[A-Za-z\s]+" required>
             </div>
             <div class="in-2">
                 <input type="email" name="email" id="" placeholder="Email" required>

@@ -29,7 +29,7 @@ h1{
 button{
     display: inline-block;
     /*padding: 7px;*/
-    background-color: #F79327;
+    background-color: #f72727;
     border-radius: 6px;
     color: white;
     font-family:Bahnschrift;    
@@ -37,21 +37,45 @@ button{
     height: 35px;
     width: 5rem;
 }
-
+button:hover{
+    background-color:black;
+}
 .save-div{
     padding-left: 22rem;
     padding-bottom: 6px;
 }
 
+save-class:hover {
+    color: black;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
 .save-class{
     /*padding: 7px;*/
-    background-color: #F79327;
+    background-color: #f72727;
     border-radius: 6px;
     color: white;
     font-family:Bahnschrift;
     font-size: 1rem;
     height: 35px;
     width: 54px;
+}
+
+input[type="submit"] {
+    background-color: #F86F03;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding-left: 12px;
+}
+
+/* Hover effect for submit buttons */
+input[type="submit"]:hover {
+    background-color: black;
 }
 
 .head-div{
@@ -62,8 +86,8 @@ button{
 
 .heading{
     font-family: monospace;
-    padding-top: 19px;
-    padding-bottom: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     padding-right: 0;
 }
 .container{
@@ -117,6 +141,7 @@ label{
     width: 55rem;
     padding-left: 2rem;
     padding-right: 5px;
+    padding-top: 40px;
 }
 
 .lb-out{
@@ -151,4 +176,5 @@ iframe{
     border: 0;
     border-radius: 0 0 8px 8px;
     outline: 0;
+    padding-top: 0;
 }

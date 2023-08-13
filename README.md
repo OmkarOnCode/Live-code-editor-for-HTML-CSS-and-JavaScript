@@ -28,7 +28,7 @@
     FOREIGN KEY (u_id) REFERENCES user_form (id)
     ) ENGINE=InnoDB;
    
-9. run using your desired localhost after configuring in the xampp.
+9. run using your desired localhost after configuring in xampp.
 
 
 

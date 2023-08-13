@@ -88,7 +88,7 @@ input[type="submit"]:hover {
     font-family: monospace;
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-right: 0;
+    padding-right: 0px;
 }
 .container{
     display: flex;
